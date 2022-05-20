@@ -169,3 +169,49 @@ image{
 .show{
     left: 0;
 }
+
+/* Active link */
+.active{
+    position: relative;
+}
+
+.active::before{
+    content: '';
+    position: absolute;
+    bottom: -.5rem;
+    left: 45%;
+    width: 4px;
+    height: 4px;
+    background-color: var(--dark-color);
+    border-radius: 50%;
+}
+
+/* change color header */
+.scroll-header{
+    background-color: var(--white-color);
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+
+/* ====== home ======= */
+
+
+/* buttons */
+
+
+/* featured */
+
+
+/* collections */
+
+
+
+/* women sneakers */
+
+
+
+/* offer */
+
+
+
+/* new collection */
