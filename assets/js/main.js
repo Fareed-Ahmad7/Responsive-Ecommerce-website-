@@ -37,7 +37,6 @@ function scrollActive(){
             document.querySelectorAll('.nav__menu a[href*='+ sectionId + ']').classList.add('active')
         } else {
             document.querySelectorAll('.nav__menu a[href*='+ sectionId + ']').classList.remove('active')
-
         }
     })
 }
