@@ -313,8 +313,8 @@ image{
 
 .sneaker__name, .sneaker__price{
     font-size: var(--h2-font-size);
+    font-weight: var(--font-bold);
     letter-spacing: .1rem;
-    font-weight: var(--font-semi-bold);
 }
 
 .sneaker__name{
@@ -370,7 +370,10 @@ image{
 }
 
 /* women sneakers */
-
+.women__container{
+    row-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
 
 
 /* offer */
