@@ -329,6 +329,21 @@ image{
     transform: translateY(-.5rem);
 }
 
+/* shop pages */
+.sneaker__pages{
+    margin-top: var(--mb-6);
+}
+
+.sneaker__pag{
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--dark-color);
+}
+
+.sneaker__pag:hover{
+    background-color: var(--dark-color);
+    color: var(--white-color);
+}
+
 /* collections */
 .collection__container{
     row-gap: 2rem;
@@ -542,3 +557,5 @@ width: 220px;
     color: var(--dark-color-light);
     text-align: center;
 }
+
+/* media queries */
